@@ -2,7 +2,8 @@ This bit of Ruby is for parsing a set of shopping carts in the format:
 
 BLANK LINE
 (quantity) (item name) at (price per item)
-...
+(quantity) imported (item name) at (price per item)
+etc...
 BLANK LINE
 
 The base sales tax rate is 10%.
