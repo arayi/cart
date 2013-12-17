@@ -1,8 +1,8 @@
-This bit of Ruby is for parsing a set of shopping carts. Included is a sample input file. If you want to add another cart to the input file, please use the following format:
+This bit of Ruby is for parsing a set of shopping carts in the format:
 
 BLANK LINE
-# item at (price per item)
-(other items)
+(quantity) (item name) at (price per item)
+...
 BLANK LINE
 
 The base sales tax rate is 10%.
